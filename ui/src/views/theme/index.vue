@@ -165,8 +165,8 @@ const themeForm = ref<any>({
   icon: '',
   loginLogo: '',
   loginImage: '',
-  title: 'MaxKB',
-  slogan: '欢迎使用 MaxKB 智能知识库'
+  title: '',
+  slogan: ''
 })
 
 const rules = reactive<FormRules>({

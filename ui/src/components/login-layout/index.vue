@@ -2,10 +2,7 @@
   <div class="login-warp flex-center">
     <div class="login-container w-full h-full">
       <el-row class="container w-full h-full">
-        <el-col :xs="0" :sm="0" :md="10" :lg="10" :xl="10" class="left-container">
-          <div class="login-image" :style="{ backgroundImage: `url(${loginImage})` }"></div>
-        </el-col>
-        <el-col :xs="24" :sm="24" :md="14" :lg="14" :xl="14" class="right-container flex-center">
+        <el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24" class="flex-center">
           <slot></slot>
         </el-col>
       </el-row>
